@@ -1,0 +1,7 @@
+# Local settings and runtime files. None of these belong in a public repo.
+.env
+.odeon_token.json
+state.json
+state.json.tmp
+monitor.log
+__pycache__/
