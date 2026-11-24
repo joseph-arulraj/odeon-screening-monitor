@@ -1,9 +1,7 @@
 name: Odeon showtime monitor
 
 on:
-  schedule:
-    # GitHub scheduled workflows use UTC. Runs every five minutes.
-    - cron: "*/5 * * * *"
+  # Scheduled polling disabled. Manual runs remain available.
   workflow_dispatch:
 
 permissions:
